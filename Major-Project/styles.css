@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  height:80px;
+  width: 100%;
+  padding: 20px 50px;
+  font-family:"Roboto Mono", serif; 
+  font-size: 400;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.image{
+  height: 35px;
+  width: auto;
+}
+.nav-list{
+  height: 40px;
+  width: fit-content;
+}
+.header{
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)) ,url(header-background.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+.nav-items{
+  margin: 30px;
+  display: flex;
+  align-items: center;
+}
+.main-nav{
+  float: right;
+  list-style: none;
+}
+.main-nav li{
+  display: inline-block;
+  margin-left:20px;
+}
+.main-nav a{
+  text-decoration: none;
+  color: white;
+}
+.main-nav a:hover{
+  color: #14bf98;
+}
+.social-icons{
+  display: flex;
+  margin-left: 0.5rem;
+}
+.hexagon{
+  height: 25px;
+  width: 30px;
+  background-color: rgb(77, 170, 139);
+  border-radius: 10px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+
+}
+.hexagon a {
+  color: white;
+  font-size: 15px;
+}
+.hexagon a:hover{
+  color: rgb(77, 170, 139);
+}
+.hexagon:hover{
+  color: rgb(77, 170, 139);
+  background-color: white;
+}
+.container{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  height: 200px;
+  width: auto;
+  text-align: center;
+}
+.text h1{
+  font-family:"Roboto Mono", serif; 
+  color: white;
+  font-size: 65px;
+}
+.text p{
+  font-family:"Roboto Mono", serif; 
+  color: rgb(222, 220, 220);
+  font-size: 20px;
+}
